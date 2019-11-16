@@ -4,6 +4,11 @@
 
 ## Directory-based project format:
 .idea/
+.gradle/
+.settings/
+
+.classpath
+.project
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
@@ -31,8 +36,11 @@
 
 ## Plugin-specific files:
 
-# IntelliJ
+# Output directories
 /out/
+/bin/
+/build/
+/target/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
